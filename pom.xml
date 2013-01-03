@@ -36,17 +36,17 @@
         <site>
             <id>maven-s3-site</id>
             <name>S3 Maven Site</name>
-            <url>s3://mojoblue-repo/site</url>
+            <url>s3://S3_BUCKET_NAME/site</url>
         </site>
         <repository>
             <id>maven-s3-release-repo</id>
             <name>S3 Release Repository</name>
-            <url>s3://mojoblue-repo/release</url>
+            <url>s3://S3_BUCKET_NAME/release</url>
         </repository>
         <snapshotRepository>
             <id>maven-s3-snapshot-repo</id>
             <name>S3 Snapshot Repository</name>
-            <url>s3://mojoblue-repo/snapshot</url>
+            <url>s3://S3_BUCKET_NAME/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -54,7 +54,7 @@
         <repository>
             <id>maven-s3-release-repo</id>
             <name>S3 Release Repository</name>
-            <url>s3://mojoblue-repo/release</url>
+            <url>s3://S3_BUCKET_NAMErelease</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -65,7 +65,7 @@
         <repository>
             <id>maven-s3-snapshot-repo</id>
             <name>S3 Snapshot Repository</name>
-            <url>s3://mojoblue-repo/snapshot</url>
+            <url>s3://S3_BUCKET_NAME/snapshot</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -78,7 +78,7 @@
         <pluginRepository>
             <id>maven-s3-release-repo</id>
             <name>S3 Release Repository</name>
-            <url>s3://mojoblue-repo/release</url>
+            <url>s3://S3_BUCKET_NAME/release</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -89,7 +89,7 @@
         <pluginRepository>
             <id>maven-s3-snapshot-repo</id>
             <name>S3 Snapshot Repository</name>
-            <url>s3://mojoblue-repo/snapshot</url>
+            <url>s3://S3_BUCKET_NAME/snapshot</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
